@@ -8,9 +8,9 @@ import string
 emailDomains = ("@xyzrandomstring.com", "@abcrandomstring.com", "pqrrandomstring.com")
 password = "helloworld123"
 SUCCESSFULL_FAKERS = []
-user = raw_input("Enter username: ") # Username whose repository you want to fork
-repository = raw_input("Enter repository name: ")
-numberOfForks = input("Number of forks? : ")
+user = raw_input("Enter username: Crackexy") # Username whose repository you want to fork
+repository = raw_input("Enter repository name: https://github.com/Crackexy/CrackBot")
+numberOfForks = input("Number of forks? : 10")
 for i in range(numberOfForks):
 	username = 'a'+''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(9))
 	email = username+random.choice(emailDomains)
